@@ -4,25 +4,41 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SCSS Test</title>
-    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/output.css"/>
 </head>
 
 <body>
     <header>
         <h1>
-            I'm a cool form
+            MY FORM
         </h1>
     </header>
     <main>
-        <form>
-            I'm a form
-        </form>
+        <section id="login-section">
+            <h4>Login</h4>
+            <form id="login-form">
+                <label for="phone-number">Phone Number:</label>
+                <input id="phone-number" type="number"/>
+                <label for="user-password">Password</label>
+                <input id="user-password" type="password"/>
+                <a class="btn">Login</a>
+                <a class="btn">Signup</a>
+            </form>
+        </section>
+        <section>
+            <p>To give developers a choice of high-quality fonts when using the Fonts API, we have created Google Fonts. There you can browse our catalog of available fonts, learn about the font designers who created them, and copy the code required to use them on your web page.</p>
+        </section>
     </main>
-    <aside>
-        I'm some advts
-    </aside>
     <footer>
-        I'm a footer
+        <table id="footer-table">
+            <tr>
+                <td>Select Languaage</td>
+                <td><a lang="en">English</a></td>
+                <td><a lang="ml">Malayalam</a></td>
+                <td><a lang="es">Spanish</a></td>
+            </tr>
+        </table>
     </footer>
 </body>
 </html>

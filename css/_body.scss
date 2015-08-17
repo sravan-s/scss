@@ -1,0 +1,11 @@
+@import 'common';
+
+$body-bg-color: $light-chocolate;
+$rem: 16px;
+
+body {
+    background-color: $body-bg-color;
+    font-size: $rem;
+    @include size(100%);
+    color: $white;
+}
